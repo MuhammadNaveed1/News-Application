@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.buttonDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttonDiv button {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.buttonDiv button:hover {
+    background-color: transparent;
+    color: black;
+}
+.buttonDiv button:active {
+    background-color: transparent !important;
+    color: black !important;
+    opacity: 0.8;
+}
